@@ -4,45 +4,47 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>LoraBuiaBox – Download & Donazione</title>
-  <meta name="description" content="Scarica l'APK ufficiale di LoraBuiaBox e supporta il progetto.">
   <style>
-    :root { --bg:#0b0b0f; --fg:#eaeaea; --muted:#b7b7c0; --acc:#d1005f; --card:#14141a; }
-    *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--fg)}
-    .wrap{max-width:780px;margin:0 auto;padding:32px}
-    .card{background:var(--card);border:1px solid #1f1f28;border-radius:16px;padding:24px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
-    h1{margin:0 0 8px;font-size:28px}
-    p{color:var(--muted);line-height:1.6}
-    .btns{display:flex;flex-wrap:wrap;gap:12px;margin:18px 0 8px}
-    a.btn{display:inline-block;padding:14px 18px;border-radius:12px;border:1px solid #2b2b36;text-decoration:none;font-weight:600}
-    a.primary{background:var(--acc);color:white;border:none}
-    a.secondary{background:#1a1a23;color:var(--fg)}
-    code{background:#1a1a22;padding:2px 6px;border-radius:6px;border:1px solid #292935}
-    .meta{margin-top:14px;font-size:14px;color:#9da0aa}
-    .foot{margin-top:20px;font-size:13px;color:#8a8e99}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#0b0b0f;color:#eaeaea}
+    .wrap{max-width:740px;margin:0 auto;padding:24px}
+    h1{margin:12px 0 6px}
+    p{color:#b7b7c0;line-height:1.6}
+    .btns{display:flex;flex-wrap:wrap;gap:12px;margin:18px 0}
+    a.btn{display:inline-block;padding:14px 18px;border-radius:10px;border:1px solid #2b2b36;text-decoration:none;font-weight:700}
+    a.primary{background:#d1005f;color:#fff;border:none}
+    a.secondary{background:#1a1a23;color:#eaeaea}
+    .meta{margin-top:10px;font-size:14px;color:#9da0aa}
+    .rawlinks{margin-top:16px;font-size:14px}
+    .rawlinks a{color:#eaeaea}
   </style>
 </head>
 <body>
   <div class="wrap">
-    <div class="card">
-      <h1>LoraBuiaBox</h1>
-      <p>App sperimentale per sessioni “L’Ora Buia”. Distribuzione diretta in APK.</p>
+    <h1>LoraBuiaBox</h1>
+    <p>App sperimentale per sessioni “L’Ora Buia”. Distribuzione diretta in APK.</p>
 
-      <div class="btns">
-        <a class="btn primary" href="https://github.com/lhian-dark/lorabuiabox/releases/download/v1.0.0/app-release.apk" download>⬇️ Scarica APK</a>
-        <a class="btn secondary" href="https://paypal.me/TUONOME" target="_blank" rel="noopener">💖 Dona su PayPal</a>
-      </div>
-
-      <div class="meta">
-        <div><strong>Versione:</strong> 1.0.0 • <strong>Data:</strong> 2025-11-05</div>
-        <div><strong>Permessi:</strong> Microfono (EVP), Audio.</div>
-      </div>
-
-      <hr style="border-color:#1f1f28;margin:18px 0">
-
-      <p><strong>Installazione Android:</strong> scarica l’APK → aprilo → consenti “Origini sconosciute” quando richiesto.</p>
-      <p class="foot">Privacy: nessun invio a server. Registrazioni solo in locale.</p>
-      <p class="foot">Software fornito “as is”, senza garanzie.</p>
+    <div class="btns">
+      <!-- CAMBIA QUI con il link reale dell’asset nella tua Release -->
+      <a class="btn primary" href="https://github.com/lhian-dark/lorabuiabox/releases/download/v1.0.0/app-release.apk" download>⬇️ Scarica APK</a>
+      <!-- CAMBIA QUI con il tuo PayPal -->
+      <a class="btn secondary" href="https://paypal.me/TUONOME" target="_blank" rel="noopener">💖 Dona su PayPal</a>
     </div>
+
+    <div class="meta">
+      <div><strong>Versione:</strong> 1.0.0 • <strong>Data:</strong> 2025-11-05</div>
+      <div><strong>Permessi:</strong> Microfono (EVP), Audio.</div>
+    </div>
+
+    <!-- Fallback: link testuali visibili, così anche se i bottoni non rendono, i link ci sono -->
+    <div class="rawlinks">
+      <div>Link diretto APK: <a href="https://github.com/lhian-dark/lorabuiabox/releases/download/v1.0.0/app-release.apk">apri/ scarica</a></div>
+      <div>PayPal: <a href="https://paypal.me/darklhian" target="_blank" rel="noopener">paypal.me/TUONOME</a></div>
+    </div>
+
+    <hr style="border-color:#1f1f28;margin:18px 0">
+    <p><strong>Installazione Android:</strong> scarica l’APK → aprilo → consenti “Origini sconosciute”.</p>
+    <p style="font-size:13px;color:#8a8e99">Privacy: nessun invio a server. Registrazioni solo in locale. • Software “as is”.</p>
   </div>
 </body>
 </html>
+
